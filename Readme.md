@@ -9,9 +9,9 @@ In this example, the custom controller name is `DefaultDashboard`.
 <!-- default file list -->
 ## Files to Look at
 
-* [Startup.cs](./CS/AspNetCoreCustomDashboardController/Startup.cs)
+* [Startup.cs](./CS/AspNetCoreCustomDashboardController/Startup.cs#L87)
 * [DefaultDashboardController.cs](./CS/AspNetCoreCustomDashboardController/Controllers/DefaultDashboardController.cs)
-* [Index.cshtml](./CS/AspNetCoreCustomDashboardController/Pages/Index.cshtml)
+* [Index.cshtml](./CS/AspNetCoreCustomDashboardController/Pages/Index.cshtml#L5)
 <!-- default file list end -->
 
 ## Documentation
