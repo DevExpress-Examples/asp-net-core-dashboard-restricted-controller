@@ -14,7 +14,7 @@ In this example, the custom controller name is `DefaultDashboard`.
 <!-- default file list -->
 ## Files to Look at
 
-* [Startup.cs](./CS/AspNetCoreCustomDashboardController/Startup.cs#L87)
+* [Startup.cs](./CS/AspNetCoreCustomDashboardController/Startup.cs#L89)
 * [DefaultDashboardController.cs](./CS/AspNetCoreCustomDashboardController/Controllers/DefaultDashboardController.cs)
 * [Index.cshtml](./CS/AspNetCoreCustomDashboardController/Pages/Index.cshtml#L5)
 <!-- default file list end -->
