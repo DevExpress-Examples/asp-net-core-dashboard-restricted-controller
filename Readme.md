@@ -14,7 +14,7 @@ The example shows how to create a restricted dashboard controller for the [Web D
 ## Example Description
 
 Inherit the [RestrictedDashboardController](https://docs.devexpress.com/Dashboard/DevExpress.DashboardAspNetCore.RestrictedDashboardController) class to create a custom dashboard controller. Add its name (without `Controller` prefix) to the following places:
-- The [EndpointRouteBuilderExtension.MapDashboardRoute](https://docs.devexpress.com/Dashboard/DevExpress.DashboardAspNetCore.EndpointRouteBuilderExtension.MapDashboardRoute(System.Object-System.String-System.String)) method when you configure routing;
+- The [EndpointRouteBuilderExtension.MapDashboardRoute](https://docs.devexpress.com/Dashboard/DevExpress.DashboardAspNetCore.EndpointRouteBuilderExtension.MapDashboardRoute.overloads) method when you configure routing;
 - The [DashboardBuilder.ControllerName](https://docs.devexpress.com/Dashboard/DevExpress.DashboardAspNetCore.DashboardBuilder.ControllerName(System.String)) method when you configure a control on the page. 
 
 In this example, the custom controller name is `DefaultDashboard`.
