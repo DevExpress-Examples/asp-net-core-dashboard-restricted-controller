@@ -29,7 +29,7 @@ In this example, the custom controller name is `DefaultDashboard`.
 
 ## Documentation
 
-- [DashboardController](https://docs.devexpress.com/Dashboard/DevExpress.DashboardAspNetCore.DashboardController)
+- [RestrictedDashboardController](https://docs.devexpress.com/Dashboard/DevExpress.DashboardAspNetCore.RestrictedDashboardController)
 - [Security Considerations in Web](https://docs.devexpress.com/Dashboard/118651/designer-and-viewer-applications/web-dashboard/security-considerations)
 
 ## More Examples
