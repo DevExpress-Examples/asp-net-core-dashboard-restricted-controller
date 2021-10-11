@@ -34,7 +34,7 @@ In this example, the custom controller name is `DefaultDashboard`.
 
 ## More Examples
 
-- [Dashboard for MVC - How to create a custom dashboard controller](https://github.com/DevExpress-Examples/dashboard-for-mvc-custom-dashboard-controller)
+- [Dashboard for MVC - How to create a restricted dashboard controller](https://github.com/DevExpress-Examples/asp-net-mvc-dashboard-restricted-controller)
 - [Dashboard for ASP.NET Core - How to implement authentication﻿](https://github.com/DevExpress-Examples/ASPNET-Core-Dashboard-Authentication)
 - [Dashboard for ASP.NET Core - How to implement multi-tenant Dashboard architecture﻿](https://github.com/DevExpress-Examples/DashboardUserBasedAspNetCore)
 - [Dashboard for ASP.NET Core - How to load different data based on the current user﻿](https://github.com/DevExpress-Examples/DashboardDifferentUserDataAspNetCore)
