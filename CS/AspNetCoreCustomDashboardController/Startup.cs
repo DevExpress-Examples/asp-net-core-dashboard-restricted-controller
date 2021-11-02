@@ -6,11 +6,13 @@ using DevExpress.DataAccess.Excel;
 using DevExpress.DataAccess.Sql;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc.ApplicationParts;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
 using System;
+using System.Linq;
 
 namespace AspNetCoreCustomDashboardController {
     public class Startup {
@@ -28,7 +30,14 @@ namespace AspNetCoreCustomDashboardController {
             services
                 .AddResponseCompression()
                 .AddDevExpressControls()
-                .AddMvc();
+                .AddMvc()
+                .ConfigureApplicationPartManager((manager) => {
+                    var dashboardApplicationParts = manager.ApplicationParts.Where(part => 
+                        part is AssemblyPart && ((AssemblyPart)part).Assembly == typeof(DashboardController).Assembly).ToList();
+                    foreach (var partToRemove in dashboardApplicationParts) {
+                        manager.ApplicationParts.Remove(partToRemove);
+                    }
+                });
             services.AddScoped<DashboardConfigurator>((IServiceProvider serviceProvider) => {
                 DashboardConfigurator configurator = new DashboardConfigurator();
                 configurator.SetConnectionStringsProvider(new DashboardConnectionStringsProvider(Configuration));
