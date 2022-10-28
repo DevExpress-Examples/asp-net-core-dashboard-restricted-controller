@@ -20,13 +20,11 @@ Inherit the [RestrictedDashboardController](https://docs.devexpress.com/Dashboar
 
 In this example, the custom controller name is `DefaultDashboard`.
 
-<!-- default file list -->
-## Files to Look at
+## Files to Review
 
 * [Startup.cs](./CS/AspNetCoreCustomDashboardController/Startup.cs#L89)
 * [DefaultDashboardController.cs](./CS/AspNetCoreCustomDashboardController/Controllers/DefaultDashboardController.cs)
 * [Index.cshtml](./CS/AspNetCoreCustomDashboardController/Pages/Index.cshtml#L5)
-<!-- default file list end -->
 
 ## Documentation
 
